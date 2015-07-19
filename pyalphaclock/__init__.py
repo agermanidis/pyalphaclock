@@ -1,13 +1,7 @@
-import argparse
 import calendar
 import datetime
-import json
-import os
 import serial
-import subprocess
-import sys
 import time
-import urllib2
 
 def pad_string(s, length=5, align='right'):
     s = s[:length]
